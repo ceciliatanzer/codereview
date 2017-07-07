@@ -1,9 +1,22 @@
+/*using the original facebook color*/
+
 header {
 	background-color: #4267B2;
+	overflow:hidden;
+	width: 100%;
+	position: fixed;
 }
 article{
 	background-color: white;
+	float: right;
+	display: inline;
+	width: 75%;
+	padding-top: 100px;
+	
+	
+
 }
+/*changes the backround color to the facebook original body color*/
 body{
 	background-color: #E9EBEE
 }
@@ -20,8 +33,42 @@ footer{
 	font-size: 13pt;
 	text-align: center;
 	background: turquoise;
-}
-aside{
-	display: block;
+	width: 100%;
 	float: left;
+	position: sticky;
+	top: 0;
+	
+}
+/*styling element with the help of a class atribute*/
+.sidebar {
+	
+	width: 20%;
+	height: 100%;
+	float: left;
+	display: inline;
+	padding-top:15px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	
+}
+/*styling element with the  help of id atribute*/
+#frame {
+	float: left;
+	width: 20%;
+	padding-top: 550px;
+	margin-right: 5px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	
+}
+/*using a pseudo element*/
+p::first-line {
+	color: yellow;
+
+}
+.text {
+	overflow: auto;
 }
