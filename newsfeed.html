@@ -8,25 +8,27 @@
     <style>
     a {
     	font-size: 20pt;
-    	color:white ;
+    	color: white ;
     }
     input {float: right;}
 
  /*this is a pseudo class, links change color when mouse over them*/
-    a:hover {
-    	color: green;
+     a:hover {
+    	color: red;
     }
 
     </style>
 </head>
 <body>
 	<header>  <!--navigation bar-->
-	  <a href=”#”>Home </a> |
-      <a href=”#”>News </a> |
-      <a href=”#”>Fotos </a> |
-      <a href=”#”>Videos </a> |
-      <a href="#">Contact </a> |
+  <nav>
+	    <a href="#"> Home  </a>
+      <a href="#"> News  </a>
+      <a href="#"> Fotos  </a>
+      <a href="#"> Videos  </a>
+      <a href="#"> Contact  </a>
       <input type="text" placeholder="Search">
+  </nav>
 	</header>
 	<aside>
 	<!-- these are the links on the sidebar-->
@@ -34,18 +36,18 @@
 <!--i used an inline style tag to prove that the pseudo element styled in the external style sheet takes over an inline style tag even if we use !important-->
 <p style="color: black !important">For more news:</p>
 <ul>
-	<li><a href="https://www.wikipedia.org/">Wikipedia</a> </li>
+	<li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
 	<li><a href="http://www.bbc.com/">BBC</a></li>
 	<li><a href="http://www.aljazeera.com/">Aljazeera</a></li>
 	<li><a href="http://www.nbc.com/">NBC</a></li>
-</ul>  <iframe src="http://www.bbc.com/">Your browser does not support this :(</iframe><br>
+</ul> 
+
+ <iframe src="http://www.bbc.com/">Your browser does not support this </iframe><br>
    <br>
    <iframe src="http://www.nbc.com/">Youre browser does not support this</iframe>
-
-  
-   
-  
 </div>
+
+
 </aside>
 
 <article class="text">

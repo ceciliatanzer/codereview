@@ -46,7 +46,7 @@ footer{
 	height: 100%;
 	float: left;
 	display: inline;
-	padding-top:15px;
+	padding-top:17px;
 	margin-right: 5px;
 	overflow: hidden;
 	position: fixed;
@@ -72,3 +72,6 @@ p::first-line {
 .text {
 	overflow: auto;
 }
+
+
+
