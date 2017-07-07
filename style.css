@@ -1,0 +1,27 @@
+header {
+	background-color: #4267B2;
+}
+article{
+	background-color: white;
+}
+body{
+	background-color: #E9EBEE
+}
+article a {
+	color: green;
+}
+aside a {
+	color: blue;
+}
+aside p{
+	font-size: 14pt;
+}
+footer{
+	font-size: 13pt;
+	text-align: center;
+	background: turquoise;
+}
+aside{
+	display: block;
+	float: left;
+}
