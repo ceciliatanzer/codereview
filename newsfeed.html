@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang='en'>
+
 <head>
     <meta charset="utf-8">
     <title>News feed</title>
@@ -7,95 +8,83 @@
     <!-- internal stylesheet-->
     <style>
     a {
-    	font-size: 20pt;
-    	color: white ;
+        font-size: 20pt;
+        color: white;
     }
-    input {float: right;}
-
- /*this is a pseudo class, links change color when mouse over them*/
-     a:hover {
-    	color: red;
+    
+    input {
+        float: right;
     }
-
+    /*this is a pseudo class, links change color when mouse over them*/
+    
+    a:hover {
+        color: red;
+    }
     </style>
 </head>
+
 <body>
-	<header>  <!--navigation bar-->
-  <nav>
-	    <a href="#"> Home  </a>
-      <a href="#"> News  </a>
-      <a href="#"> Fotos  </a>
-      <a href="#"> Videos  </a>
-      <a href="#"> Contact  </a>
-      <input type="text" placeholder="Search">
-  </nav>
-	</header>
-	<aside>
-	<!-- these are the links on the sidebar-->
-<div class="sidebar">
-<!--i used an inline style tag to prove that the pseudo element styled in the external style sheet takes over an inline style tag even if we use !important-->
-<p style="color: black !important">For more news:</p>
-<ul>
-	<li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
-	<li><a href="http://www.bbc.com/">BBC</a></li>
-	<li><a href="http://www.aljazeera.com/">Aljazeera</a></li>
-	<li><a href="http://www.nbc.com/">NBC</a></li>
-</ul> 
-
- <iframe src="http://www.bbc.com/">Your browser does not support this </iframe><br>
-   <br>
-   <iframe src="http://www.nbc.com/">Youre browser does not support this</iframe>
-</div>
-
-
-</aside>
-
-<article class="text">
-	<h1>G20 braces for tough talks with Trump</h1><br>
-	<!--adding a foto with the inline style tag-->
-	<img src="http://15130-presscdn-0-89.pagely.netdna-cdn.com/wp-content/uploads/2016/11/putin_trump.jpg" alt="Trump" style="width:100%;height:250px;">
-	<br>
-	<p>Leaders from the world's top economies are preparing for tough talks with US President Donald Trump on climate change and trade as a Group of 20 summit gets under way in Germany amid the threat of violent protests.</p>
-<p>The meeting on Friday in the port city of Hamburg comes at a time of major shifts in the global geo-political landscape, with Trump's "America First" policies pushing Europe and China closer together.
-Trump will meet Russia's Vladimir Putin for the first time on Friday afternoon, an encounter that will be intensely scrutinised following allegations by US intelligence agencies that Moscow meddled in the US election to help Trump win.</p>
-<p>The summit also brings together Trump and Chinese President Xi Jinping at a time when Washington is ratcheting up pressure on Beijing to rein in North Korea after it test-launched an intercontinental ballistic missile and threatening the Chinese with punitive trade measures.
-Amid the big egos and seemingly intractable conflicts, the host, German Chancellor Angela Merkel, faces the daunting task of steering leaders towards a consensus on trade, climate and migration - all issues that have become more contentious since Trump entered the White House half a year ago.</p>
-<p>Trump's bilateral with Putin was scheduled to take place just 15 minutes after the start of the discussion on climate, a scheduling conflict that could complicate a deal.
-Met with Trump for one hour at a hotel in Hamburg on Thursday evening to try to overcome differences that envoys have been unable to settle in weeks of intense talks, including a last minute trip to Washington by the chancellor's top economic adviser.</p>
-<p>The two leaders shook hands and smiled for the cameras, showing none of the tension that hung over their first two meetings, in Washington in March and on Trump's first trip to Europe in May.
-On climate, sources told Reuters that US officials were pushing for a mention of fossil fuels as a viable alternative to cleaner energy sources and that the Europeans were resisting. In addition to the US, Saudi Arabia was proving difficult to get on side.</p>
-<p>On trade, the sources said that Washington was backtracking on language condemning protectionism that Trump agreed to at a Group of Seven meeting in Sicily in late May.
-Hanging over the trade discussions is a threat by Washington to use a Cold War-era law to restrict steel imports based on national security concerns, a step that would hit the Chinese as well as partners in Europe.</p>
-<p>German Foreign Minister Sigmar Gabriel suggested on Thursday that the measures could trigger a transatlantic trade war.
-As leaders arrived on Thursday, riot police fired water cannon at a group of about a thousand black-clad protesters who hurled bottles in a demonstration organisers had dubbed "Welcome to Hell".
-About 20,000 police from all of Germany's 16 states have been deployed on the streets of Hamburg. They will be facing off against up to 100,000 protesters, including an estimated 8,000 who police say are prepared to use violence.</p><br>
-<a href="http://www.bbc.com/news">More infos here</a>
-	
-</article>
-
-<div id="frame">
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/7zpojhD4hpI" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<article class="text">
-<h1>Mars rover</h1><br>
-<img src="http://bilder.bild.de/fotos-skaliert/mars-rover-curiosity-39403093-42930438/2,w=993,c=0.bild.jpg" alt="Marsrover" style="width:100%;height:250px;"><br>
-<p>A Mars rover is an automated motor vehicle that propels itself across the surface of the planet Mars upon arrival. Rovers have several advantages over stationary landers: they examine more territory, and they can be directed to interesting features, they can place themselves in sunny positions to weather winter months, and they can advance the knowledge of how to perform very remote robotic vehicle control.</p>
-<p>There have been four successful robotically operated Mars rovers. The Jet Propulsion Laboratory managed the Mars Pathfinder mission and its now inactive Sojourner rover. It currently manages the Mars Exploration Rover mission's active Opportunity rover and inactive Spirit, and, as part of the Mars Science Laboratory mission, the Curiosity rover. On January 24, 2016 NASA reported that current studies on the planet Mars by the Curiosity and Opportunity rovers will now be searching for evidence of ancient life, including a biosphere based on autotrophic, chemotrophic, and/or chemolithoautotrophic microorganisms, as well as ancient water, including fluvio-lacustrine environments (plains related to ancient rivers or lakes) that may have been habitable.The search for evidence of habitability, taphonomy (related to fossils), and organic carbon on the planet Mars is now a primary NASA objective.</p><br>
-<a href="https://en.wikipedia.org/wiki/Mars_rover">More infos here</a>
-	
-</article>
-
-
-
-
-	
-
-<footer>
-	 &#9400; Copyright 2017 <br>
-	 Cecilia Tanzer
-
-</footer>
-   
+    <header>
+        <!--navigation bar-->
+        <nav>
+            <a href="#"> Home  </a>
+            <a href="#"> News  </a>
+            <a href="#"> Fotos  </a>
+            <a href="#"> Videos  </a>
+            <a href="#"> Contact  </a>
+            <input type="text" placeholder="Search">
+        </nav>
+    </header>
+    <aside>
+        <!-- these are the links on the sidebar-->
+        <div class="sidebar">
+            <!--i used an inline style tag to prove that the pseudo element styled in the external style sheet takes over an inline style tag even if we use !important-->
+            <p style="color: black !important">For more news:</p>
+            <ul>
+                <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+                <li><a href="http://www.bbc.com/">BBC</a></li>
+                <li><a href="http://www.aljazeera.com/">Aljazeera</a></li>
+                <li><a href="http://www.nbc.com/">NBC</a></li>
+            </ul>
+            <iframe src="http://www.bbc.com/">Your browser does not support this </iframe>
+            <br>
+            <br>
+            <iframe src="http://www.nbc.com/">Youre browser does not support this</iframe>
+        </div>
+    </aside>
+    <article class="text">
+        <h1>G20 braces for tough talks with Trump</h1>
+        <br>
+        <!--adding a foto with the inline style tag-->
+        <img src="http://15130-presscdn-0-89.pagely.netdna-cdn.com/wp-content/uploads/2016/11/putin_trump.jpg" alt="Trump" style="width:100%;height:250px;">
+        <br>
+        <p>Leaders from the world's top economies are preparing for tough talks with US President Donald Trump on climate change and trade as a Group of 20 summit gets under way in Germany amid the threat of violent protests.</p>
+        <p>The meeting on Friday in the port city of Hamburg comes at a time of major shifts in the global geo-political landscape, with Trump's "America First" policies pushing Europe and China closer together. Trump will meet Russia's Vladimir Putin for the first time on Friday afternoon, an encounter that will be intensely scrutinised following allegations by US intelligence agencies that Moscow meddled in the US election to help Trump win.</p>
+        <p>The summit also brings together Trump and Chinese President Xi Jinping at a time when Washington is ratcheting up pressure on Beijing to rein in North Korea after it test-launched an intercontinental ballistic missile and threatening the Chinese with punitive trade measures. Amid the big egos and seemingly intractable conflicts, the host, German Chancellor Angela Merkel, faces the daunting task of steering leaders towards a consensus on trade, climate and migration - all issues that have become more contentious since Trump entered the White House half a year ago.</p>
+        <p>Trump's bilateral with Putin was scheduled to take place just 15 minutes after the start of the discussion on climate, a scheduling conflict that could complicate a deal. Met with Trump for one hour at a hotel in Hamburg on Thursday evening to try to overcome differences that envoys have been unable to settle in weeks of intense talks, including a last minute trip to Washington by the chancellor's top economic adviser.</p>
+        <p>The two leaders shook hands and smiled for the cameras, showing none of the tension that hung over their first two meetings, in Washington in March and on Trump's first trip to Europe in May. On climate, sources told Reuters that US officials were pushing for a mention of fossil fuels as a viable alternative to cleaner energy sources and that the Europeans were resisting. In addition to the US, Saudi Arabia was proving difficult to get on side.</p>
+        <p>On trade, the sources said that Washington was backtracking on language condemning protectionism that Trump agreed to at a Group of Seven meeting in Sicily in late May. Hanging over the trade discussions is a threat by Washington to use a Cold War-era law to restrict steel imports based on national security concerns, a step that would hit the Chinese as well as partners in Europe.</p>
+        <p>German Foreign Minister Sigmar Gabriel suggested on Thursday that the measures could trigger a transatlantic trade war. As leaders arrived on Thursday, riot police fired water cannon at a group of about a thousand black-clad protesters who hurled bottles in a demonstration organisers had dubbed "Welcome to Hell". About 20,000 police from all of Germany's 16 states have been deployed on the streets of Hamburg. They will be facing off against up to 100,000 protesters, including an estimated 8,000 who police say are prepared to use violence.</p>
+        <br>
+        <a href="http://www.bbc.com/news">More infos here</a>
+    </article>
+    <div id="frame">
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/7zpojhD4hpI" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <article class="text">
+        <h1>Mars rover</h1>
+        <br>
+        <img src="http://bilder.bild.de/fotos-skaliert/mars-rover-curiosity-39403093-42930438/2,w=993,c=0.bild.jpg" alt="Marsrover" style="width:100%;height:250px;">
+        <br>
+        <p>A Mars rover is an automated motor vehicle that propels itself across the surface of the planet Mars upon arrival. Rovers have several advantages over stationary landers: they examine more territory, and they can be directed to interesting features, they can place themselves in sunny positions to weather winter months, and they can advance the knowledge of how to perform very remote robotic vehicle control.</p>
+        <p>There have been four successful robotically operated Mars rovers. The Jet Propulsion Laboratory managed the Mars Pathfinder mission and its now inactive Sojourner rover. It currently manages the Mars Exploration Rover mission's active Opportunity rover and inactive Spirit, and, as part of the Mars Science Laboratory mission, the Curiosity rover. On January 24, 2016 NASA reported that current studies on the planet Mars by the Curiosity and Opportunity rovers will now be searching for evidence of ancient life, including a biosphere based on autotrophic, chemotrophic, and/or chemolithoautotrophic microorganisms, as well as ancient water, including fluvio-lacustrine environments (plains related to ancient rivers or lakes) that may have been habitable.The search for evidence of habitability, taphonomy (related to fossils), and organic carbon on the planet Mars is now a primary NASA objective.</p>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Mars_rover">More infos here</a>
+    </article>
+    <footer>
+        &#9400; Copyright 2017
+        <br> Cecilia Tanzer
+    </footer>
 </body>
-</html>  
+
+</html>
